@@ -1,0 +1,19 @@
+<html ng-app='myApp'>
+    <head>
+        <title>RoutingDemo App</title>
+        <link rel="stylesheet" type="text/css" href="library/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body >
+    	<div class="container"> 
+	        <div ng-view></div>
+	        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.js"></script>
+	        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+	        <script src="app/app.js"></script>
+	        <script src="app/controllers/home.controller.js"></script>
+	        <script src="app/controllers/details.controller.js"></script>
+	        <script src="services/holidays.service.js"></script>
+     	</div>
+     
+    </body>
+</html>
